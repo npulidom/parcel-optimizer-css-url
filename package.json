@@ -1,0 +1,20 @@
+{
+	"name": "parcel-optimizer-css-url",
+	"version": "2.0.0",
+	"description": "Parcel plugin that allows you to ignore the 'url' function in CSS files",
+	"author": "Nicolas Pulido",
+	"license": "MIT",
+	"main": "lib/index.js",
+	"keywords": [
+		"parcel",
+		"plugin",
+		"css url",
+		"ignore assets"
+	],
+	"engines": {
+		"parcel": ">=2.0.0"
+	},
+	"devDependencies": {
+		"parcel": "^2.0.0"
+	}
+}
