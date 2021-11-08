@@ -18,10 +18,10 @@ Create a `.parcelrc` configuration file and add the plugin to optimizers like th
 
 ```js
 {
-	"extends": "@parcel/config-default",
-	"optimizers": {
-		"*.css": ["parcel-optimizer-css-url"]
-	}
+    "extends": "@parcel/config-default",
+    "optimizers": {
+        "*.css": ["parcel-optimizer-css-url"]
+    }
 }
 ```
 
@@ -32,7 +32,7 @@ want Parcel to process them, specifically using the CSS `url` function in styles
 
 ```css
 .my-background {
-	background: url('../public/images/my-asset.jpg') no-repeat;
+    background: url('../public/images/my-asset.jpg') no-repeat;
 }
 ```
 
@@ -41,12 +41,12 @@ To prevent Parcel resolving this image just replace `url` directive to `_url`.
 ### CSS
 ```css
 .my-background {
-	background: _url('../public/images/my-asset.jpg') no-repeat;
+    background: _url('../public/images/my-asset.jpg') no-repeat;
 }
 ```
 
 ### Stylus
 ```stylus
 .my-background
-	background _url('../public/images/my-asset.jpg') no-repeat
+    background _url('../public/images/my-asset.jpg') no-repeat
 ```
