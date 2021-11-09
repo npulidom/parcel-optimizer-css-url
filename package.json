@@ -4,7 +4,11 @@
 	"description": "Parcel plugin that allows you to ignore the 'url' function in CSS files",
 	"author": "Nicolas Pulido",
 	"license": "MIT",
-	"repository": "https://github.com/npulidom/parcel-optimizer-css-url",
+	"homepage": "https://github.com/npulidom/parcel-optimizer-css-url#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/npulidom/parcel-optimizer-css-url.git"
+	},
 	"main": "lib/index.js",
 	"keywords": [
 		"parcel",
