@@ -1,6 +1,6 @@
 {
 	"name": "parcel-optimizer-css-url",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "Parcel plugin that allows you to ignore the 'url' function in CSS files",
 	"keywords": [
 		"parcel",
