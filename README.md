@@ -8,7 +8,7 @@
 ## Installation
 
 ```sh
-# Installs the plugin and saves it as a development dependency
+# Installs the plugin and saves it as a dev dependency
 npm i parcel-optimizer-css-url -D
 ```
 
